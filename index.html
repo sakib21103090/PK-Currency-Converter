@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pk Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+</head>
+<body>
+    
+    <div class="container ">
+        
+        <h1>Currency Converter</h1>
+        <form > 
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input  value="100" type="text">
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p>from</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/BD/flat/64.png" alt="">
+                        <select name="from">
+                            <option value="USD">USD</option>
+                            <option value="USD">USD</option>
+                            <option value="USD">USD</option>
+                        </select>
+                    </div>
+                </div>
+                <i class=" icon fa-solid fa-right-left"></i>
+                <div class="to">
+                    <p>TO</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/BD/flat/64.png" alt="">
+                        <select name="from">
+                            <option value="USD">USD</option>
+                            <option value="USD">USD</option>
+                            <option value="USD">USD</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="resultMsg">USD=80INR</div>
+            <button>Get Exchange Rate</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
